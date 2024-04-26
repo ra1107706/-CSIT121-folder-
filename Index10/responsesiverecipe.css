@@ -1,0 +1,109 @@
+/* Css document */
+body {background-color: rgb(120, 247, 150);
+    font-family: URW Chancery L, cursive;}
+
+h1{ font-family:URW Chancery L, cursive;}
+
+p{ position: absolute;
+    bottom: 8px;
+    width: 70%;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+padding-left: 100px;}
+
+ol{color: rgb(255, 255, 255);
+font-family: URW Chancery L, cursive;}
+
+li {height: 50px;
+font-family: URW Chancery L, cursive;}
+
+li {color: rgb(255, 255, 255); font-family: URW Chancery L, cursive;}
+
+h2{text-transform: lowercase; font-family: URW Chancery L, cursive;
+    position: relative;
+    bottom:70px;
+    left:500px;}
+
+
+
+#wrapper { margin-left: auto;
+    margin-right: auto;
+    width: 80%; 
+}
+head{ padding: 20px;
+}
+
+ul{ float: left;
+padding: 20px;
+}
+ol{
+bottom: 400px;
+left: 400px;
+font-size: small;
+height: 20px;}
+
+/*pseudo classes*/
+p:hover{
+    text-decoration: underline;
+}
+p:link{
+    font-size: 100px;
+    
+
+
+}
+p:visited{
+color: rgb(245, 5, 5);
+}
+p:focus{background-color: rgba(0, 0, 0, 0);
+
+}
+p:active{
+    color: aquamarine;
+    font-weight: 900;
+
+}
+
+@media only screen and  (max-width: 768px) {
+
+    h1{text-align: center;
+font-size: 27px;
+top: 10px;
+left: 10px;
+text-align: left;
+}
+
+h2{text-transform: lowercase; font-family: URW Chancery L, cursive;
+    font-size: 27px;
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    text-align: left;}
+
+ul{ min-height: 100px;
+    width: 50%;
+    float: none;
+    overflow: hidden;
+    background-color: rgb(240, 32, 32);
+font-size: 10px;}
+
+    ol{ min-height: 500px;
+        width: 50%;
+        background-color: black;
+        font-size: 10px;}
+
+
+        p { max-height: 10% ;
+        width: 50%;
+       position: relative;
+       right: 100px;
+       font-size: 10px; }
+
+    body {
+      background-color: lightblue;
+    }
+  }
+
+
+
